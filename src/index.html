@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <title>Journal</title>
+</head>
+<body>
+  <div class="container">
+    <form id="entry-form">
+      <div class="form-group">
+        <label for="title">Journal Title:</label>
+        <input id="title" name="title" type="text">
+      </div>
+      <div class="form-group">
+        <label for="body">Journal Entry:</label>
+        <input id="body" name="body" type="text">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <h3 id="titleResult"></h3>
+  <h5 id="bodyResult"></h5>
+  <hr>
+  <h5 >This entry contains <span id="wordCountResult"></span> words.</h5>
+  <h5 >This entry contains <span id="vowelCountResult"> </span> vowels.</h5>
+  <h5 >This entry contains <span id="consonantCountResult"> </span> consonants.</h5>
+
+</body>
+</html>
